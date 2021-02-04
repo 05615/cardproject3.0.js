@@ -1,0 +1,43 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    background:#ddd;
+    font-family:"Yu Gothic UI Semibold";
+}
+.form {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:500px;
+    height: 500px;
+    background:#f5f5f5;
+    box-shadow:7px 7px 12px 7px #ccc;
+}
+
+.form .tab-content {
+    padding:23px;
+}
+.form .tab-content .form-element {
+    margin:10px 0px;
+}
+.form .tab-content .form-element input {
+    width:100%;
+    padding:10px;
+    border:1px solid #aaa;
+    font-size:16px;
+    background:#f5f5f5;
+    border-radius:5px;
+    outline:none;
+}
+
+.form .tab-content .form-element label {
+    color:#111;
+}
+.form .tab-content > div.active {
+    display:block;
+}
+.form .tab-content > div {
+    display:none;
+}
